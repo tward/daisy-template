@@ -1,5 +1,7 @@
 # A VSCode template for Electrosmith Daisy projects
 
+Originally adapted from <https://github.com/zeroisnan/daisytmpl.git>
+
 **(documentation still work in progress)**
 
 This template supports the following features:
@@ -14,7 +16,7 @@ This template supports the following features:
 DO NOT fork this repo. Clone the template instead, with:
 
 ```bash
-git clone --recurse-submodules https://github.com/zeroisnan/daisytmpl.git myproject
+git clone --recurse-submodules https://github.com/tward/daisy-template.git myproject
 ```
 
 Update the version of the libdaisy and DaisySP submodules:
@@ -24,7 +26,7 @@ git submodule foreach git checkout master
 git submodule foreach git pull origin master 
 ```
 
-Disconnect your clone from this depot:
+Disconnect your clone from this repo:
 ```bash
 git remote rm origin
 ```
