@@ -3,6 +3,5 @@
 /plugin.so
 /plugin.dylib
 /plugin.dll
-.DS_Store
 /src/*.d
 /src/*.o
